@@ -1,0 +1,15 @@
+.light-green-background{
+    background-color:#1abc9c ;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.line{
+    background-color: white;
+    height: 4px;
+    width: 80px;
+    border-radius: 15%;
+}
