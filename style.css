@@ -15,6 +15,7 @@ main{
     background-color: #ba4b63;
 }
 
+
 .line{
     background-color: white;
     height: 4px;
@@ -33,6 +34,10 @@ main{
     border-radius: 15%;
 }
 
-.img-main{
-    
+.dwl-button{
+    background-color: #1abc9c;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    color: white;
 }
