@@ -15,7 +15,7 @@
 <body>
     <header>
         <section class=" dark-blue-background">
-            <nav class="navbar navbar-expand-sm container">
+            <nav class="navbar navbar-expand-sm container navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand fw-bold text-white" href="#">START BOOTSTRAP</a>
                     <button class="navbar-toggler white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,7 +126,7 @@
         </section>
     </main>
     <footer>
-        <section>
+        <section class="mb-3">
             <div class="container-form m-auto">
                 <div class="d-flex flex-column align-items-center">
                     <h1 class="fw-bold">CONTACT ME</h1>
@@ -137,19 +137,23 @@
                     </div>
                 </div>
                 <form class="text-start">
-                    <ul class="d-flex flex-column">
-                        <li class="fw-semibold py-3 fs-4"><a href="">Name</a></li>
-                        <li class="fw-semibold py-3 fs-4"><a href="">Email Address</a></li>
-                        <li class="fw-semibold py-3 fs-4"><a href="">Phone Number</a></li>
-                    </ul>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  
+                        <label for="exampleInputEmail1" class="form-label">Email Adress</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  
+                        <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+
                     <div class="mb-3">
                         <label class="form-label fw-semibold fs-4">Message</label>
                         <textarea class="form-control" rows="3"></textarea>
-                      </div>
+                    </div>
                     <button type="submit" class="btn btn-success fw-bold">SEND</button>
-                
                 </form>
-                
             </div>
         </section>
         <section class="dark-blue-background">
